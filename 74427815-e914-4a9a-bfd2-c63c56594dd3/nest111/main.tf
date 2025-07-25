@@ -4,6 +4,6 @@ module "s3-bucket-1" {
 }
 
 resource "aws_s3_bucket" "aws_s3_bucket-1" {
-  bucket = "newbucket00012"
+  bucket = "newbucket000121"
 }
 
