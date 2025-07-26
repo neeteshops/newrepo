@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "neetesh0099098812"
+  bucket = "neetesh00099099"
 
   tags = {
-    Name        = "neetesh0099098812"
+    Name        = "neetesh00099099"
     Environment = var.environment
   }
 }
