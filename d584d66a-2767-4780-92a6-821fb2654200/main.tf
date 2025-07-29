@@ -1,0 +1,4 @@
+module "neneen" {
+  source = "./neneen"
+}
+
