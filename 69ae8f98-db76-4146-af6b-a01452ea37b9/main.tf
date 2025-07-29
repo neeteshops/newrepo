@@ -1,7 +1,7 @@
 provider "aws" {
-  region = var.region
+  region = var.aws_region
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "neetsh-222310"
+  bucket = "bucket9909999009"
 }
