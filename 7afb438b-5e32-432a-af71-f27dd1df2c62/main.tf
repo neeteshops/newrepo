@@ -5,6 +5,6 @@ provider "aws" {
 resource "aws_s3_bucket" "bucket" {
   bucket = var.bucket_name
   tags = {
-    WorkflowName = "workflow-6e1ceade"
+    WorkflowName = "workflow-88877"
   }
 }
