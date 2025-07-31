@@ -1,13 +1,10 @@
-# AWS Provider Configuration
 provider "aws" {
-  region = var.aws_region
+  region = var.region
 }
 
-# S3 Bucket without ACL
-resource "aws_s3_bucket" "this" {
+resource "aws_s3_bucket" "bucket" {
   bucket = var.bucket_name
-  
-  tags = merge(var.tags, {
-    Workflow = var.workflow_name
-  })
+  tags = {
+    WorkflowName = "workflow-6e1ceade"
+  }
 }
